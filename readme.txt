@@ -1,10 +1,10 @@
-=== VI: Components Bootstrap ===
+=== VI: Components Bootstrap 4 ===
 Contributors: Knighthawk
 Donate link:
 Tags:
 Requires at least: ?
 Tested up to: 5.3
-Version: 9.1.191204
+Version: 9.2.200903
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -16,6 +16,9 @@ Just include the Bootstrap Components, on the public facing side of the website,
 
 
 == Changelog ==
+
+= 9.2.200903 =
+* updated to bootstrap version 4.5.2
 
 = 9.1.200310 =
 * added priority of 5
