@@ -3,7 +3,7 @@
 Plugin Name: VI: Components Bootstrap 4
 Plugin URI: http://neathawk.com
 Description: Just include the Bootstrap Components, on the public facing side of the website, nothing more. NOTE: Bootstrap requires jQuery.
-Version: 9.3.210302
+Version: 9.4.210712
 Author: Joseph Neathawk
 Author URI: http://Neathawk.com
 License: GNU General Public License v2 or later
@@ -47,11 +47,11 @@ class vi_components_bootstrap_4
 	 * wp_enqueue_script( string $handle, string $src = '', array $deps = array(), string|bool|null $ver = false, bool $in_footer = false )
 	 *
 	 * @link https://developer.wordpress.org/themes/basics/including-css-javascript/#stylesheets
-	 * @link https://getbootstrap.com/docs/4.5/getting-started/download/
+	 * @link https://getbootstrap.com/docs/4.6/getting-started/introduction/
 	 * @link https://www.bootstrapcdn.com/
 	 * @link https://developer.wordpress.org/reference/functions/wp_enqueue_script/
 	 * @link https://developer.wordpress.org/reference/functions/wp_enqueue_style/
-	 * @version 9.3.210302
+	 * @version 9.4.210712
 	 * @since 9.1.191204
 	 */
 	public static function enqueue_scripts() {
@@ -63,8 +63,7 @@ class vi_components_bootstrap_4
 	    //bootstrap components
 	    wp_enqueue_style( 'bootstrap', 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css', array(), '4.5.2' );
 
-	    wp_enqueue_script( 'popper-js', 'https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js', array('jquery'), '1.16.1', true );
-	    wp_enqueue_script( 'bootstrap-js', 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js', array('jquery'), '4.5.2', true );
+	    wp_enqueue_script( 'popper-js', 'https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js', array('jquery'), '4.6.0', true );
 	}
 
 

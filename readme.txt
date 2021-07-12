@@ -4,7 +4,7 @@ Donate link:
 Tags:
 Requires at least: ?
 Tested up to: 5.3
-Version: 9.2.200903
+Version: 9.4.210712
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -16,6 +16,9 @@ Just include the Bootstrap Components, on the public facing side of the website,
 
 
 == Changelog ==
+
+= 9.4.210712 =
+* updated to bootstrap version 4.6.0
 
 = 9.2.200903 =
 * updated to bootstrap version 4.5.2
